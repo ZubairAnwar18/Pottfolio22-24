@@ -1,0 +1,5 @@
+Engineer Name: muhPlane Serial Number: 1Reason for job: mechanical repair - bodyDate of Maintenance Job: 2023-05-24Date of Previous Job: 2023-02-02Time spent on job: 1.36 hours
+Job outcome: return to serviceDate of next scheduled service: 24/05/6Engineer Name: muhammadPlane Serial Number: 5Reason for job: mechanical repair - wingDate of Maintenance Job: 2023-05-24Date of Previous Job: 2023-02-02Time spent on job: 1.93 hours
+Job outcome: grounded - do not flyDate of next scheduled service: 24/05/6Engineer Name: pfsPlane Serial Number: 99Reason for job: cosmetic repairDate of Maintenance Job: 2023-05-24Date of Previous Job: 2012-02-02Time spent on job: 2 hours
+Job outcome: further action(S) requiredDate of next scheduled service: 24/05/6Engineer Name: qwPlane Serial Number: 1Reason for job: cosmetic repairDate of Maintenance Job: 2023-05-24Date of Previous Job: 2023-01-01Time spent on job: 1.3 hours
+Job outcome: further action(S) requiredDate of next scheduled service: 24/05/6
