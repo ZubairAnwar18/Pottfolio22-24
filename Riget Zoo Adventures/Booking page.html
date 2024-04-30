@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Riget Zoo Adventures</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+  border-bottom-color: #04aa6d;
+}
+
+label {
+  padding: 12px 0;
+  display: block;
+  color: #555;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #087547;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
+</head>
+
+<body style="background: powderblue;">
+  <div class="Logo-_35F7XXKl-transformed_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <div class="btn-box">
+            <a href="index.html">
+              <img src="images/logo-no-background.png" alt="" width="200" height="90">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="how.html">Popular Animals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Sign - up.html">Sign - up</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="Booking page.html">Booking</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact us.html">Contact us</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <br><br>
+  <div class="container">
+    <div id="box">
+      <form method="post" action="confirmbooking.html">
+        <div style="font-size: 40px; margin: 10px; color: black;">Booking page</div><br><br>
+        
+
+      <div class="row">
+        <div class="col-25">
+          <label for="emailAddress">Full Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" placeholder="Enter your Full Name" required minlength="4" maxlength="40" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="phoneNumber">Phone Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Phonenum" name="phonenum" placeholder="Your phone number" required minlength="11" maxlength="11" pattern="[0-9]*" title="Please enter only numbers"
+           required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="serviceType">Type of Service:</label>
+        </div>
+        <div class="col-75">
+          <select id="serviceType" name="serviceType" required>
+            <option value="" disabled selected>Select Your Service</option>
+            <option value="hotelService">Hotel Service</option>
+            <option value="zooService">Safari-style Zoo Service</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="startDate">Start Date</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="startDate" name="startDate" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="endDate">End Date</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="endDate" name="endDate" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="cardNumber">Card Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter Card Number" required minlength="16" maxlength="16" pattern="[0-9]*" title="Please enter a 
+          valid card number" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="expiryDate">Expiry Date</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required minlength="7" maxlength="7" pattern="(0[1-9]|1[0-2])\/[0-9]{4}" title="Please 
+          enter a valid expiry date in MM/YYYY format" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="ccvNumber">CCV Number</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="ccvNumber" name="ccvNumber" placeholder="Enter CCV Number" required minlength="3" maxlength="4" pattern="[0-9]*" title="Please enter a 
+          valid CCV number" required>
+        </div>
+      </div>
+
+      
+
+    <form action="confirmbooking.html">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
